@@ -19,6 +19,9 @@ public class examples {
 		System.out.println(driver.getTitle());
 		WebElement footertable=driver.findElement(By.id("gf-BIG"));
 		System.out.println(footertable.findElements(By.tagName("a")).size());
+		gitdemo gt=new gitdemo();
+	   System.out.println(gt);
+				
 		
 		driver.close();
 		driver.quit();
